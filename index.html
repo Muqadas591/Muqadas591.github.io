@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Muqadas Israr — AI/ML Engineer | LLM & RAG Systems | Banking AI</title>
-<meta name="description" content="Muqadas Israr is a Senior ML Engineer specializing in LLM applications, RAG systems, AI agents, and banking AI solutions. Open to remote AI engineering roles and freelance projects."/>
-<meta name="keywords" content="AI Engineer, ML Engineer, LLM Engineer, RAG Systems, AI Agents, Python, TensorFlow, PyTorch, Banking AI, Data Science, Remote AI Jobs, Freelance AI Engineer"/>
+<title>Muqadas Israr | AI/ML Engineer | LLMs, RAG & AI Automation</title>
+<meta name="description" content="Muqadas Israr is an AI/ML Engineer building practical AI applications, enterprise RAG systems, invoice automation workflows, and AI-powered analytics products."/>
+<meta name="keywords" content="AI Engineer, ML Engineer, Python, Generative AI, LLM, RAG, AI Automation, FastAPI, React, TypeScript, Data Analytics"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
@@ -354,615 +354,264 @@
     .nav-links { display: none; }
     .hero-stats { grid-template-columns: 1fr 1fr; }
   }
+
+  .project-card, .service-card, .timeline-card { min-width: 0; }
+  a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+  @media (max-width: 768px) {
+    nav { padding: 0.85rem 1rem; }
+    .hero-inner { gap: 2rem; }
+    .projects-grid { grid-template-columns: 1fr; }
+    .case-card { padding: 1.5rem; }
+    section { padding: 4.5rem 1.25rem; }
+  }
 </style>
 </head>
 <body>
 
-<!-- ─── NAV ─── -->
+<!-- NAV -->
 <nav>
   <div class="nav-logo">MI ✦</div>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li>
+    <li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank" class="nav-cta">Hire Me</a>
+  <a href="#contact" class="nav-cta">Let's Connect</a>
 </nav>
 
-<!-- ─── HERO ─── -->
+<!-- HERO -->
 <section id="hero">
   <canvas id="neuralCanvas"></canvas>
   <div class="hero-inner">
     <div>
-      <div class="hero-badge">⚡ Available for Remote & Freelance</div>
-      <h1 class="hero-title">
-        Building <span class="accent">Intelligent</span><br/>
-        AI Systems<br/>
-        That <span class="violet">Actually Work</span>
-      </h1>
-      <p class="hero-sub">
-        Senior ML Engineer at The Bank of Punjab. I design LLM applications, RAG pipelines, and production ML systems — turning complex AI research into real business impact.
-      </p>
+      <div class="hero-badge">AI/ML Engineer · Open to Remote Opportunities</div>
+      <h1 class="hero-title">Building <span class="accent">Intelligent</span><br/>AI Systems<br/>That <span class="violet">Solve Real Problems</span></h1>
+      <p class="hero-sub">I'm Muqadas Israr, an AI/ML Engineer focused on building practical AI products across LLM applications, Retrieval-Augmented Generation, workflow automation, and data analytics.</p>
       <div class="hero-btns">
-        <a href="#projects" class="btn-primary">View My Work</a>
-        <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank" class="btn-outline">LinkedIn →</a>
+        <a href="#projects" class="btn-primary">Explore My Projects</a>
+        <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank" rel="noopener noreferrer" class="btn-outline">Connect on LinkedIn →</a>
       </div>
     </div>
     <div class="hero-stats">
-      <div class="stat-card">
-        <div class="stat-num">8+</div>
-        <div class="stat-label">Production AI Systems Deployed</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">3+</div>
-        <div class="stat-label">Years AI/ML Development</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">RAG</div>
-        <div class="stat-label">Enterprise LLM Pipelines</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">3.6</div>
-        <div class="stat-label">GPA · BS Information Technology</div>
-      </div>
+      <div class="stat-card"><div class="stat-num">03</div><div class="stat-label">Featured end-to-end AI products</div></div>
+      <div class="stat-card"><div class="stat-num">RAG</div><div class="stat-label">Retrieval & grounded generation</div></div>
+      <div class="stat-card"><div class="stat-num">AI</div><div class="stat-label">Business workflow automation</div></div>
+      <div class="stat-card"><div class="stat-num">BI</div><div class="stat-label">Data analysis & decision support</div></div>
     </div>
   </div>
 </section>
 
-<!-- ─── ABOUT ─── -->
+<!-- ABOUT -->
 <section id="about">
   <div class="container">
     <div class="section-eyebrow">Who I Am</div>
-    <h2 class="section-title">AI Engineer. Problem Solver.<br/>Business Impact Obsessed.</h2>
+    <h2 class="section-title">AI Engineer. Builder.<br/>Practical Problem Solver.</h2>
     <div class="divider"></div>
     <div class="about-grid">
       <div class="about-text">
-        <div class="about-tagline">"I don't just build models — I build AI systems that change how organizations make decisions."</div>
-        <p>I'm <strong>Muqadas Israr</strong>, a Senior Machine Learning Engineer at The Bank of Punjab, where I architect AI solutions that modernize how one of Pakistan's largest banks operates. From real-time fraud detection to enterprise LLM assistants, my work sits at the intersection of cutting-edge AI research and production-grade engineering.</p>
-        <p>My background spans the full ML lifecycle: data pipeline engineering, model development, evaluation, deployment, and monitoring. I've worked across <strong>NLP, computer vision, generative AI, and predictive analytics</strong> — and I thrive on applying the right tool to the right problem, not chasing hype.</p>
-        <p>I'm actively seeking <strong>remote AI engineering roles</strong> and <strong>freelance engagements</strong> with international teams building the next generation of intelligent products.</p>
+        <div class="about-tagline">I turn complex data and AI workflows into useful, understandable applications.</div>
+        <p>I'm <strong>Muqadas Israr</strong>, an AI/ML Engineer with a background in Information Technology and hands-on experience building machine learning and AI-powered applications.</p>
+        <p>My current focus is on <strong>LLM applications, RAG systems, AI automation, backend APIs, and data analytics</strong>. I enjoy working across the application lifecycle: understanding a business problem, designing the workflow, implementing the system, evaluating its behavior, and making it usable through a clear interface.</p>
+        <p>Alongside my professional role in banking, I build independent portfolio projects using synthetic or non-confidential data. These projects demonstrate my engineering approach without exposing employer systems, code, or information.</p>
         <ul class="value-list">
-          <li>End-to-end ML system design — from raw data to production API</li>
-          <li>LLM & RAG architecture for enterprise knowledge systems</li>
-          <li>Banking & fintech AI: fraud, credit risk, cash forecasting</li>
-          <li>MLOps, model monitoring, and drift detection pipelines</li>
+          <li>Designing document-aware LLM and RAG applications</li>
+          <li>Building invoice processing and exception-management workflows</li>
+          <li>Developing data validation, cleaning, analysis, and reporting pipelines</li>
+          <li>Creating Python APIs and user-facing application interfaces</li>
         </ul>
-        <div class="about-certs">
-          <div class="cert-chip">🎖 Microsoft Certified: Power BI Data Analyst Associate</div>
-        </div>
+        <div class="about-certs"><div class="cert-chip">Microsoft Certified: Power BI Data Analyst Associate</div></div>
       </div>
       <div>
-        <div class="section-eyebrow" style="margin-bottom:1rem;">Personal Taglines</div>
+        <div class="section-eyebrow" style="margin-bottom:1rem;">Professional Focus</div>
         <div style="display:flex;flex-direction:column;gap:1rem;">
-          <div class="stat-card">
-            <div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.5rem;">ONE-LINE PITCH</div>
-            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.95rem;font-weight:500;">Senior ML Engineer turning data into decisions — LLMs, RAG, and banking AI that ship.</div>
-          </div>
-          <div class="stat-card">
-            <div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.5rem;">ELEVATOR PITCH</div>
-            <div style="color:var(--muted);font-size:0.875rem;line-height:1.7;">I build production AI systems for high-stakes environments. At The Bank of Punjab, I've shipped an enterprise RAG assistant, a credit risk model, and a cash prediction engine — each reducing manual work and improving decision accuracy. I'm seeking remote AI engineering roles where the stakes are real.</div>
-          </div>
-          <div class="stat-card">
-            <div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.5rem;">POSITIONING</div>
-            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.95rem;font-weight:600;color:var(--cyan);">The AI Engineer who builds what actually makes it to production.</div>
-          </div>
+          <div class="stat-card"><div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.5rem;">WHAT I BUILD</div><div style="font-family:'Space Grotesk',sans-serif;font-size:0.95rem;font-weight:500;">AI applications that connect data, models, business rules, and user workflows.</div></div>
+          <div class="stat-card"><div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.5rem;">HOW I WORK</div><div style="color:var(--muted);font-size:0.875rem;line-height:1.7;">I focus on clear architecture, practical evaluation, validation, traceability, and interfaces that help people understand and use AI outputs.</div></div>
+          <div class="stat-card"><div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.5rem;">CURRENT INTERESTS</div><div style="font-family:'Space Grotesk',sans-serif;font-size:0.95rem;font-weight:600;color:var(--cyan);">Generative AI · RAG · AI Automation · Applied Analytics</div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ─── SKILLS ─── -->
+<!-- SKILLS -->
 <section id="skills">
   <div class="container">
     <div class="section-eyebrow">Technical Stack</div>
-    <h2 class="section-title">Tools I Build With</h2>
-    <div class="divider"></div>
-    <p class="section-sub">Organized by domain — not just a list of buzzwords.</p>
+    <h2 class="section-title">Tools & Technologies</h2><div class="divider"></div>
+    <p class="section-sub">Technologies used across my development, AI, and analytics work.</p>
     <div class="skills-grid">
-      <div class="skill-group">
-        <div class="skill-group-title">🤖 AI / ML Core</div>
-        <div class="skill-tags">
-          <span class="tag">TensorFlow</span><span class="tag">PyTorch</span>
-          <span class="tag">scikit-learn</span><span class="tag">XGBoost</span>
-          <span class="tag">Gradient Boosting</span><span class="tag">Random Forest</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">🧠 LLM & GenAI</div>
-        <div class="skill-tags">
-          <span class="tag">LangChain</span><span class="tag">Hugging Face</span>
-          <span class="tag">RAG Pipelines</span><span class="tag">FAISS</span>
-          <span class="tag">Embeddings</span><span class="tag">Prompt Engineering</span>
-          <span class="tag">AI Agents</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">📊 Data & Analytics</div>
-        <div class="skill-tags">
-          <span class="tag">Pandas</span><span class="tag">NumPy</span>
-          <span class="tag">SQL</span><span class="tag">Power BI</span>
-          <span class="tag">Power Query</span><span class="tag">DAX</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">⚙️ MLOps & Deployment</div>
-        <div class="skill-tags">
-          <span class="tag">Model Monitoring</span><span class="tag">Data Drift Detection</span>
-          <span class="tag">Streamlit</span><span class="tag">Flask</span>
-          <span class="tag">REST APIs</span><span class="tag">GitHub CI</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">🌐 Backend & Dev</div>
-        <div class="skill-tags">
-          <span class="tag">Python</span><span class="tag">JavaScript</span>
-          <span class="tag">React Native</span><span class="tag">Firebase</span>
-          <span class="tag">HTML/CSS</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">🔬 Domains</div>
-        <div class="skill-tags">
-          <span class="tag">NLP</span><span class="tag">Computer Vision</span>
-          <span class="tag">Fraud Detection</span><span class="tag">Credit Risk</span>
-          <span class="tag">Cash Forecasting</span><span class="tag">Sentiment Analysis</span>
-        </div>
-      </div>
+      <div class="skill-group"><div class="skill-group-title">AI / Machine Learning</div><div class="skill-tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">XGBoost</span><span class="tag">NLP</span></div></div>
+      <div class="skill-group"><div class="skill-group-title">LLM & Generative AI</div><div class="skill-tags"><span class="tag">LangChain</span><span class="tag">Hugging Face</span><span class="tag">RAG</span><span class="tag">Embeddings</span><span class="tag">FAISS</span><span class="tag">ChromaDB</span><span class="tag">Prompt Engineering</span></div></div>
+      <div class="skill-group"><div class="skill-group-title">Backend & APIs</div><div class="skill-tags"><span class="tag">FastAPI</span><span class="tag">Flask</span><span class="tag">REST APIs</span><span class="tag">Python</span><span class="tag">SQLAlchemy</span></div></div>
+      <div class="skill-group"><div class="skill-group-title">Frontend & Application</div><div class="skill-tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">React Native</span></div></div>
+      <div class="skill-group"><div class="skill-group-title">Data & Analytics</div><div class="skill-tags"><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Excel</span><span class="tag">Matplotlib</span></div></div>
+      <div class="skill-group"><div class="skill-group-title">Databases & Engineering</div><div class="skill-tags"><span class="tag">PostgreSQL</span><span class="tag">SQLite</span><span class="tag">Firebase</span><span class="tag">Alembic</span><span class="tag">Pytest</span><span class="tag">Docker</span><span class="tag">Git</span></div></div>
     </div>
   </div>
 </section>
 
-<!-- ─── EXPERIENCE ─── -->
+<!-- EXPERIENCE -->
 <section id="experience">
   <div class="container">
-    <div class="section-eyebrow">Career Path</div>
-    <h2 class="section-title">Experience</h2>
-    <div class="divider"></div>
+    <div class="section-eyebrow">Career Path</div><h2 class="section-title">Experience & Education</h2><div class="divider"></div>
     <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">Senior Machine Learning Engineer</div>
-              <div class="tl-company">The Bank of Punjab (BOP)</div>
-            </div>
-            <div class="tl-date">Nov 2025 – Present · Lahore, Pakistan</div>
-          </div>
-          <ul class="tl-bullets">
-            <li>Architected and deployed an <strong>enterprise RAG assistant</strong> using LangChain + FAISS, enabling intelligent Q&A over internal banking knowledge bases — reducing analyst query time by an estimated 40%.</li>
-            <li>Built a <strong>cash prediction system</strong> forecasting daily branch cash requirements, cutting excess cash holding costs and minimizing shortage risk across branch network.</li>
-            <li>Developed a <strong>credit default prediction pipeline</strong> combining XGBoost, Gradient Boosting, and Logistic Regression with rigorous feature engineering and hyperparameter tuning to support loan underwriting decisions.</li>
-            <li>Engineered an <strong>MLOps monitoring dashboard</strong> to detect model drift, missing value anomalies, and prediction degradation — enabling proactive governance before issues impact production.</li>
-            <li>Designed an <strong>executive HR analytics dashboard</strong> in Power BI with KPI cards, attrition analysis, and demographic insights for leadership decision-making.</li>
-            <li>Collaborated with cross-functional stakeholders (compliance, operations, finance) to align AI roadmap with strategic business objectives.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">AI Engineering Intern (Remote)</div>
-              <div class="tl-company">Code Alpha</div>
-            </div>
-            <div class="tl-date">Jun 2024 – Jul 2024 · Remote</div>
-          </div>
-          <ul class="tl-bullets">
-            <li>Developed interactive frontend interfaces for AI-based applications; integrated <strong>RESTful APIs</strong> into production workflows.</li>
-            <li>Applied modern front-end best practices while gaining hands-on exposure to AI product deployment pipelines.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">BS Information Technology — 3.6 GPA</div>
-              <div class="tl-company">The Women University, Multan</div>
-            </div>
-            <div class="tl-date">Oct 2021 – Aug 2025</div>
-          </div>
-          <ul class="tl-bullets">
-            <li>Final-year capstone: <strong>MyCalmia</strong> — a full-stack AI mental health app (React Native + Flask) with NLP-based sentiment analysis and personalized therapy recommendations.</li>
-            <li>Research in augmented reality applications for education; built an AR language learning system recognized at university level.</li>
-          </ul>
-        </div>
-      </div>
+      <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-card">
+        <div class="tl-header"><div><div class="tl-role">ML Officer</div><div class="tl-company">The Bank of Punjab (BOP)</div></div><div class="tl-date">Nov 2025 – Present · Lahore, Pakistan</div></div>
+        <ul class="tl-bullets">
+          <li>Contribute to machine learning and data-focused initiatives within a regulated banking environment.</li>
+          <li>Apply analytical and engineering methods to understand business requirements and support data-informed solutions.</li>
+          <li>Work with internal stakeholders while following organizational requirements for data confidentiality, security, and approved development environments.</li>
+        </ul>
+        <p style="color:var(--muted);font-size:0.82rem;margin-top:1rem;">Specific internal systems, datasets, source code, and performance details are intentionally excluded from this public portfolio.</p>
+      </div></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-card">
+        <div class="tl-header"><div><div class="tl-role">AI Engineering Intern (Remote)</div><div class="tl-company">Code Alpha</div></div><div class="tl-date">Jun 2024 – Jul 2024</div></div>
+        <ul class="tl-bullets"><li>Developed interactive frontend interfaces for AI-based applications.</li><li>Integrated REST APIs into application workflows and practiced modern frontend development approaches.</li></ul>
+      </div></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-card">
+        <div class="tl-header"><div><div class="tl-role">BS Information Technology</div><div class="tl-company">The Women University, Multan</div></div><div class="tl-date">Graduated 2025</div></div>
+        <ul class="tl-bullets"><li>Final-year project: <strong>MyCalmia</strong>, an AI-powered mental wellness application built with React Native and Flask.</li><li>Developed an augmented-reality language-learning project as part of university work.</li></ul>
+      </div></div>
     </div>
   </div>
 </section>
 
-<!-- ─── PROJECTS ─── -->
+<!-- PROJECTS -->
 <section id="projects">
   <div class="container">
-    <div class="section-eyebrow">Featured Work</div>
-    <h2 class="section-title">Projects & Case Studies</h2>
-    <div class="divider"></div>
-    <p class="section-sub">Production systems, research prototypes, and open-source experiments — built to solve real problems.</p>
+    <div class="section-eyebrow">Independent Portfolio Work</div><h2 class="section-title">Featured AI Projects</h2><div class="divider"></div>
+    <p class="section-sub">Three end-to-end projects demonstrating applied AI engineering, product workflows, and practical business problem-solving. Public demos use non-confidential or synthetic data.</p>
     <div class="projects-grid">
-
       <div class="project-card">
-        <div class="project-domain domain-llm">★ Featured · LLM / RAG</div>
-        <div class="project-title">Banking AI Assistant (RAG + LLM)</div>
-        <div class="project-desc">Enterprise AI knowledge assistant for The Bank of Punjab. Implements Retrieval-Augmented Generation over internal banking documentation — enabling staff to query policies, procedures, and compliance guidelines in natural language with source-grounded responses.</div>
-        <div class="project-metrics">
-          <span class="metric">~40% faster query resolution</span>
-          <span class="metric">FAISS vector search</span>
-          <span class="metric">Production deployed</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">LangChain</span><span class="stack-tag">FAISS</span>
-          <span class="stack-tag">Hugging Face</span><span class="stack-tag">Python</span>
-          <span class="stack-tag">Flask API</span><span class="stack-tag">Embeddings</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
+        <div class="project-domain domain-llm">Featured · Generative AI / RAG</div>
+        <div class="project-title">Enterprise RAG Assistant</div>
+        <div class="project-desc">A document-grounded question-answering application that helps users explore their knowledge base through natural-language questions. The system covers document ingestion, chunking, embedding generation, vector retrieval, context assembly, and cited responses. It also includes workspace-oriented chat features and retrieval-quality evaluation.</div>
+        <div class="project-metrics"><span class="metric">Recall@K evaluation</span><span class="metric">MRR evaluation</span><span class="metric">Source-grounded answers</span></div>
+        <div class="project-stack"><span class="stack-tag">Python</span><span class="stack-tag">LangChain</span><span class="stack-tag">FAISS</span><span class="stack-tag">Hugging Face</span><span class="stack-tag">Embeddings</span><span class="stack-tag">RAG</span></div>
+        <div class="project-links"><a href="https://github.com/Muqadas591" target="_blank" rel="noopener noreferrer" class="proj-link">GitHub Profile ↗</a></div>
       </div>
-
       <div class="project-card">
-        <div class="project-domain domain-banking">Banking AI · Forecasting</div>
-        <div class="project-title">Cash Prediction System</div>
-        <div class="project-desc">ML system predicting daily branch-level cash requirements at The Bank of Punjab. Incorporates historical transaction volumes, seasonal patterns, public holidays, and operational data to forecast optimal cash stocking — reducing both holding costs and shortage events.</div>
-        <div class="project-metrics">
-          <span class="metric">Reduced cash holding costs</span>
-          <span class="metric">Multi-branch scale</span>
-          <span class="metric">Time-series ML</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">Python</span><span class="stack-tag">scikit-learn</span>
-          <span class="stack-tag">XGBoost</span><span class="stack-tag">Pandas</span>
-          <span class="stack-tag">Feature Engineering</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
+        <div class="project-domain domain-banking">Featured · AI Automation / FinTech Workflow</div>
+        <div class="project-title">ExceptionOps AI</div>
+        <div class="project-desc">An AI-assisted invoice processing and business exception-management application. It demonstrates document ingestion, extraction, business validation, exception routing, human review, controlled actions, and audit history. The public demo uses synthetic invoice scenarios; actions are simulated and are not real payments.</div>
+        <div class="project-metrics"><span class="metric">Human-in-the-loop review</span><span class="metric">Idempotency & recovery</span><span class="metric">Synthetic demo data</span></div>
+        <div class="project-stack"><span class="stack-tag">Python</span><span class="stack-tag">FastAPI</span><span class="stack-tag">React</span><span class="stack-tag">TypeScript</span><span class="stack-tag">PostgreSQL</span><span class="stack-tag">SQLAlchemy</span><span class="stack-tag">Pytest</span><span class="stack-tag">Docker</span></div>
+        <div class="project-links"><a href="https://github.com/Muqadas591/exceptionops-ai" target="_blank" rel="noopener noreferrer" class="proj-link">Source Code ↗</a></div>
       </div>
-
       <div class="project-card">
-        <div class="project-domain domain-banking">Banking AI · Credit Risk</div>
-        <div class="project-title">Credit Default Prediction System</div>
-        <div class="project-desc">End-to-end ML pipeline for loan default risk assessment. Ensemble approach combining XGBoost, Gradient Boosting, Random Forest, and Logistic Regression with extensive feature engineering — supporting underwriting decisions with model-driven risk scores.</div>
-        <div class="project-metrics">
-          <span class="metric">Ensemble model</span>
-          <span class="metric">Hyperparameter tuning</span>
-          <span class="metric">Loan underwriting</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">XGBoost</span><span class="stack-tag">scikit-learn</span>
-          <span class="stack-tag">SHAP</span><span class="stack-tag">Pandas</span>
-          <span class="stack-tag">Python</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
+        <div class="project-domain domain-analytics">Featured · AI Analytics / SaaS</div>
+        <div class="project-title">AI Business Analyst</div>
+        <div class="project-desc">An AI-powered analytics application designed to turn uploaded CSV and Excel files into structured, understandable business insights. The workflow covers data validation, profiling, cleaning, exploratory analysis, visualizations, AI-generated interpretation, recommendations, and exportable reports.</div>
+        <div class="project-metrics"><span class="metric">Data validation first</span><span class="metric">Automated EDA</span><span class="metric">Actionable insights</span></div>
+        <div class="project-stack"><span class="stack-tag">Python</span><span class="stack-tag">Pandas</span><span class="stack-tag">Pandera</span><span class="stack-tag">SQL</span><span class="stack-tag">Data Visualization</span><span class="stack-tag">LLM Integration</span></div>
+        <div class="project-links"><a href="https://github.com/Muqadas591" target="_blank" rel="noopener noreferrer" class="proj-link">GitHub Profile ↗</a></div>
       </div>
-
-      <div class="project-card">
-        <div class="project-domain domain-mlops">MLOps · Model Governance</div>
-        <div class="project-title">ML Monitoring System</div>
-        <div class="project-desc">Production MLOps dashboard for tracking model health across The Bank of Punjab's deployed ML portfolio. Detects data drift, prediction drift, missing value anomalies, and performance degradation — generating automated alerts for proactive governance before issues reach customers.</div>
-        <div class="project-metrics">
-          <span class="metric">Real-time drift detection</span>
-          <span class="metric">Automated alerts</span>
-          <span class="metric">Multi-model coverage</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">Streamlit</span><span class="stack-tag">Python</span>
-          <span class="stack-tag">Evidently AI</span><span class="stack-tag">Pandas</span>
-          <span class="stack-tag">Alerting</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-domain domain-health">Healthcare AI · NLP</div>
-        <div class="project-title">MyCalmia — AI Mental Health App</div>
-        <div class="project-desc">Full-stack AI mental health mobile application built as a university capstone. NLP models analyze user sentiment and mood patterns to generate personalized therapy session recommendations. Integrated Firebase for secure user data, YouTube Data API for curated content delivery.</div>
-        <div class="project-metrics">
-          <span class="metric">Sentiment analysis NLP</span>
-          <span class="metric">Personalized recommendations</span>
-          <span class="metric">Capstone project</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">React Native</span><span class="stack-tag">Flask</span>
-          <span class="stack-tag">NLP</span><span class="stack-tag">Firebase</span>
-          <span class="stack-tag">YouTube API</span><span class="stack-tag">scikit-learn</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-domain domain-analytics">Analytics · Power BI</div>
-        <div class="project-title">HR Analytics Executive Dashboard</div>
-        <div class="project-desc">Interactive Power BI executive dashboard enabling data-driven HR decisions. Features KPI cards, attrition analysis, department-wise performance insights, demographic breakdowns, and trend analysis — built with Power Query for end-to-end data modeling and transformation.</div>
-        <div class="project-metrics">
-          <span class="metric">Executive-level reporting</span>
-          <span class="metric">Attrition modeling</span>
-          <span class="metric">Power BI certified</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">Power BI</span><span class="stack-tag">Power Query</span>
-          <span class="stack-tag">DAX</span><span class="stack-tag">SQL</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-domain domain-banking">Banking AI · Security</div>
-        <div class="project-title">Transaction Fraud Detection System</div>
-        <div class="project-desc">Real-time anomaly detection pipeline for banking transaction fraud. Combines behavioral pattern analysis, feature engineering on transaction history, and ensemble classification to flag suspicious activity — designed for high-recall requirements in a zero-tolerance fraud environment.</div>
-        <div class="project-metrics">
-          <span class="metric">High-recall classification</span>
-          <span class="metric">Real-time pipeline</span>
-          <span class="metric">Anomaly detection</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">Python</span><span class="stack-tag">XGBoost</span>
-          <span class="stack-tag">Isolation Forest</span><span class="stack-tag">SMOTE</span>
-          <span class="stack-tag">Flask API</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-domain domain-cv">Computer Vision · EdTech</div>
-        <div class="project-title">AR Language Greeting System</div>
-        <div class="project-desc">Augmented Reality educational application for interactive language learning. Recognizes physical markers in real-time and overlays audio-visual educational content, improving accessibility and engagement in classroom environments.</div>
-        <div class="project-metrics">
-          <span class="metric">AR marker recognition</span>
-          <span class="metric">Audio-visual overlay</span>
-          <span class="metric">University recognized</span>
-        </div>
-        <div class="project-stack">
-          <span class="stack-tag">Computer Vision</span><span class="stack-tag">AR Toolkit</span>
-          <span class="stack-tag">Python</span><span class="stack-tag">OpenCV</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Muqadas591" target="_blank" class="proj-link">GitHub ↗</a>
-        </div>
-      </div>
-
+    </div>
+    <div class="projects-grid" style="margin-top:1.5rem;">
+      <div class="project-card"><div class="project-domain domain-health">Additional Project · Healthcare AI</div><div class="project-title">MyCalmia — AI Mental Wellness App</div><div class="project-desc">A university capstone application combining a React Native frontend with a Flask backend. It explores questionnaire-based user flows, sentiment analysis, and personalized wellness-content recommendations.</div><div class="project-stack"><span class="stack-tag">React Native</span><span class="stack-tag">Flask</span><span class="stack-tag">Python</span><span class="stack-tag">Firebase</span><span class="stack-tag">NLP</span></div><div class="project-links"><a href="https://github.com/Muqadas591/calmia" target="_blank" rel="noopener noreferrer" class="proj-link">GitHub ↗</a></div></div>
+      <div class="project-card"><div class="project-domain domain-cv">Additional Project · EdTech</div><div class="project-title">AR Language Learning System</div><div class="project-desc">An augmented-reality educational project that uses visual markers to trigger interactive audio-visual learning content.</div><div class="project-stack"><span class="stack-tag">Augmented Reality</span><span class="stack-tag">Computer Vision</span><span class="stack-tag">OpenCV</span></div></div>
     </div>
   </div>
 </section>
 
-<!-- ─── CASE STUDY ─── -->
+<!-- CASE STUDY -->
 <section id="casestudy">
   <div class="container">
-    <div class="section-eyebrow">Deep Dive</div>
-    <h2 class="section-title">Case Study: Banking AI Assistant</h2>
-    <div class="divider"></div>
+    <div class="section-eyebrow">Project Deep Dive</div><h2 class="section-title">Inside ExceptionOps AI</h2><div class="divider"></div>
     <div class="case-card">
-      <div class="case-header">
-        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
-          <span class="metric">RAG Architecture</span>
-          <span class="metric">Enterprise Deployment</span>
-          <span class="metric">The Bank of Punjab</span>
-          <span class="metric">Jun 2026 – Present</span>
-        </div>
+      <div class="case-header"><div style="display:flex;gap:0.5rem;flex-wrap:wrap;"><span class="metric">Invoice Automation</span><span class="metric">Human Review</span><span class="metric">Synthetic Demo Data</span></div></div>
+      <div class="case-problem"><div class="case-label">The Business Problem</div><div class="case-text">Invoice processing can involve repetitive document handling, field extraction, comparisons against business records, and manual investigation of mismatches. Reliable workflows also need to handle invalid inputs, duplicate requests, failures, and traceability.</div></div>
+      <div class="case-solution"><div class="case-label">The Application Workflow</div><div class="case-text">ExceptionOps AI organizes invoice handling into a traceable workflow. Extracted information is validated, potential exceptions are surfaced for review, and controlled actions are recorded with an audit trail. Human review remains part of the decision process.</div>
+        <div class="arch-diagram">Invoice Document
+      │
+      ▼
+Document Ingestion & Local Storage
+      │
+      ▼
+Extraction → Business Validation
+      │
+      ▼
+Exception Classification & Routing
+      │
+      ▼
+Human Review & Approval
+      │
+      ▼
+Controlled / Simulated Action
+      │
+      ▼
+Audit Trail & Workflow History</div>
       </div>
-      <div class="case-problem">
-        <div class="case-label">The Problem</div>
-        <div class="case-text">Banking staff at BOP routinely spent significant time searching internal documentation — policy manuals, compliance guidelines, product FAQs — to answer routine queries. This was slow, inconsistent, and dependent on individual knowledge. The bank needed an intelligent knowledge layer that could respond accurately, cite sources, and stay within compliance boundaries.</div>
+      <div class="case-results"><div class="case-label">Engineering Focus</div><div class="results-grid">
+        <div class="result-card"><div class="result-num">API</div><div class="result-label">Modular backend</div></div>
+        <div class="result-card"><div class="result-num">HITL</div><div class="result-label">Human-in-the-loop review</div></div>
+        <div class="result-card"><div class="result-num">Logs</div><div class="result-label">Traceability & observability</div></div>
+        <div class="result-card"><div class="result-num">Tests</div><div class="result-label">Validation & failure-path testing</div></div>
       </div>
-      <div class="case-solution">
-        <div class="case-label">My Solution</div>
-        <div class="case-text">I designed and implemented an enterprise RAG (Retrieval-Augmented Generation) pipeline that combines semantic document retrieval with a large language model for grounded, citation-aware responses. The system is secure, auditable, and handles the ambiguity of natural-language banking queries.</div>
-        <div class="arch-diagram">
-User Query
-    │
-    ▼
-[Query Embedding]  ──►  Hugging Face Embedding Model
-    │
-    ▼
-[Vector Search]    ──►  FAISS Index (chunked banking docs)
-    │
-    ▼
-[Context Assembly] ──►  Top-K relevant document chunks
-    │
-    ▼
-[LLM Inference]    ──►  Prompt Engineering + LLM
-    │
-    ▼
-[Response + Sources] ──► User (with citations)</div>
-      </div>
-      <div class="case-results">
-        <div class="case-label">Results & Business Impact</div>
-        <div class="case-text">The system significantly reduced the time bank staff spent on internal knowledge queries, improved response consistency, and created an auditable trail of AI-generated answers — critical for regulated financial environments.</div>
-        <div class="results-grid">
-          <div class="result-card">
-            <div class="result-num">~40%</div>
-            <div class="result-label">Reduction in query resolution time</div>
-          </div>
-          <div class="result-card">
-            <div class="result-num">RAG</div>
-            <div class="result-label">Grounded, citation-backed responses</div>
-          </div>
-          <div class="result-card">
-            <div class="result-num">FAISS</div>
-            <div class="result-label">Sub-second semantic retrieval</div>
-          </div>
-          <div class="result-card">
-            <div class="result-num">✓</div>
-            <div class="result-label">Production deployed at BOP</div>
-          </div>
-        </div>
-      </div>
+      <p class="case-text" style="margin-top:1rem;">This is an independent portfolio project. The public demonstration uses fictional data, and simulated actions must not be interpreted as real financial transactions.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ─── SERVICES ─── -->
+<!-- SERVICES -->
 <section id="services">
   <div class="container">
-    <div class="section-eyebrow">Freelance & Remote</div>
-    <h2 class="section-title">How I Can Help Your Team</h2>
-    <div class="divider"></div>
-    <p class="section-sub">Available for contract work, remote roles, and consulting engagements with international teams.</p>
+    <div class="section-eyebrow">Ways I Can Contribute</div><h2 class="section-title">AI & Data Development Services</h2><div class="divider"></div>
+    <p class="section-sub">I am interested in remote roles and project-based collaborations involving practical AI and data applications.</p>
     <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">🧠</div>
-        <div class="service-title">LLM Application Development</div>
-        <div class="service-desc">Design and build RAG pipelines, AI chatbots, document intelligence systems, and LLM-powered workflows using LangChain, Hugging Face, and FAISS. Custom to your data and compliance requirements.</div>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">📈</div>
-        <div class="service-title">Predictive ML Systems</div>
-        <div class="service-desc">End-to-end machine learning for fraud detection, credit risk, demand forecasting, and customer churn — from data preprocessing to production API deployment with full evaluation pipelines.</div>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">⚙️</div>
-        <div class="service-title">MLOps & Model Monitoring</div>
-        <div class="service-desc">Production model health dashboards, data drift detection, automated alerting, and model governance frameworks. Ensure your AI systems stay accurate long after deployment.</div>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">📊</div>
-        <div class="service-title">Data Analytics & BI</div>
-        <div class="service-desc">Executive Power BI dashboards, SQL data modeling, KPI frameworks, and analytics pipelines. Turn raw business data into insights leadership can act on.</div>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🤖</div>
-        <div class="service-title">AI Automation & Agents</div>
-        <div class="service-desc">Design intelligent automation workflows and AI agents that handle complex multi-step tasks — integrating with your existing tools, APIs, and data sources.</div>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🔍</div>
-        <div class="service-title">NLP & Text Intelligence</div>
-        <div class="service-desc">Sentiment analysis, document classification, named entity recognition, and text extraction pipelines tailored to your domain — fintech, healthcare, legal, or general enterprise.</div>
-      </div>
+      <div class="service-card"><div class="service-icon">🧠</div><div class="service-title">LLM & RAG Applications</div><div class="service-desc">Document question-answering, knowledge assistants, retrieval pipelines, embedding workflows, and source-grounded responses.</div></div>
+      <div class="service-card"><div class="service-icon">⚙️</div><div class="service-title">AI Workflow Automation</div><div class="service-desc">Business process automation, document processing, exception routing, approval workflows, and audit-friendly application logic.</div></div>
+      <div class="service-card"><div class="service-icon">📊</div><div class="service-title">AI-Powered Data Analytics</div><div class="service-desc">Data validation, cleaning, exploratory analysis, visualization, reporting, and AI-assisted business insights.</div></div>
+      <div class="service-card"><div class="service-icon">🔧</div><div class="service-title">Python Backend & APIs</div><div class="service-desc">Backend development, REST API design, database integration, testing, and application workflow implementation.</div></div>
     </div>
   </div>
 </section>
 
-<!-- ─── GITHUB ─── -->
+<!-- GITHUB -->
 <section id="github" style="background:var(--bg2);padding:4rem 2rem;">
-  <div class="container">
-    <div class="section-eyebrow">Open Source</div>
-    <h2 class="section-title">GitHub Profile</h2>
-    <div class="divider"></div>
+  <div class="container"><div class="section-eyebrow">Code & Collaboration</div><h2 class="section-title">Explore My GitHub</h2><div class="divider"></div>
     <div class="github-section">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
-        <div>
-          <div style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;">github.com/Muqadas591</div>
-          <div style="color:var(--muted);font-size:0.875rem;margin-top:0.25rem;">AI/ML projects · Banking AI systems · LLM experiments</div>
-        </div>
-        <a href="https://github.com/Muqadas591" target="_blank" class="btn-outline" style="padding:0.6rem 1.25rem;font-size:0.85rem;">View Profile →</a>
+        <div><div style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;">github.com/Muqadas591</div><div style="color:var(--muted);font-size:0.875rem;margin-top:0.25rem;">AI applications · RAG systems · Automation · Data analytics</div></div>
+        <a href="https://github.com/Muqadas591" target="_blank" rel="noopener noreferrer" class="btn-outline" style="padding:0.6rem 1.25rem;font-size:0.85rem;">View GitHub Profile →</a>
       </div>
       <div class="github-grid">
-        <div class="github-stat">
-          <div class="github-stat-num">8+</div>
-          <div class="github-stat-label">Repositories</div>
-        </div>
-        <div class="github-stat">
-          <div class="github-stat-num">Python</div>
-          <div class="github-stat-label">Primary Language</div>
-        </div>
-        <div class="github-stat">
-          <div class="github-stat-num">AI/ML</div>
-          <div class="github-stat-label">Primary Domain</div>
-        </div>
-        <div class="github-stat">
-          <div class="github-stat-num">Active</div>
-          <div class="github-stat-label">Current Contributions</div>
-        </div>
+        <div class="github-stat"><div class="github-stat-num">Python</div><div class="github-stat-label">Core development</div></div>
+        <div class="github-stat"><div class="github-stat-num">LLMs</div><div class="github-stat-label">Generative AI</div></div>
+        <div class="github-stat"><div class="github-stat-num">RAG</div><div class="github-stat-label">Knowledge applications</div></div>
+        <div class="github-stat"><div class="github-stat-num">AI</div><div class="github-stat-label">Business workflows</div></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ─── CONTACT ─── -->
+<!-- CONTACT -->
 <section id="contact">
   <div class="container">
-    <div class="section-eyebrow">Let's Connect</div>
-    <h2 class="section-title">Open to Remote Roles<br/>& Freelance Projects</h2>
-    <div class="divider"></div>
+    <div class="section-eyebrow">Let's Connect</div><h2 class="section-title">Let's Build Something<br/>Useful with AI</h2><div class="divider"></div>
     <div class="contact-grid">
       <div class="contact-info">
-        <div class="availability-badge">Open to opportunities</div>
-        <p>I'm actively looking for <strong>remote AI/ML engineering roles</strong> and <strong>international freelance contracts</strong>. Whether you're building an LLM product, need a production ML system, or want to modernize data workflows — let's talk.</p>
-        <p>Response time: typically within 24 hours.</p>
+        <div class="availability-badge">Open to relevant opportunities</div>
+        <p>I welcome conversations about <strong>remote AI/ML roles</strong>, LLM and RAG application development, AI automation, and data analytics projects.</p>
         <div class="contact-links">
-          <a href="mailto:ranamuqadas269@gmail.com" class="contact-link">
-            <span class="contact-icon">✉️</span>
-            <div>
-              <div class="contact-link-text">ranamuqadas269@gmail.com</div>
-              <div class="contact-link-label">Email — fastest response</div>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank" class="contact-link">
-            <span class="contact-icon">💼</span>
-            <div>
-              <div class="contact-link-text">linkedin.com/in/muqadas-israr</div>
-              <div class="contact-link-label">LinkedIn — connect & message</div>
-            </div>
-          </a>
-          <a href="https://github.com/Muqadas591" target="_blank" class="contact-link">
-            <span class="contact-icon">💻</span>
-            <div>
-              <div class="contact-link-text">github.com/Muqadas591</div>
-              <div class="contact-link-label">GitHub — see my code</div>
-            </div>
-          </a>
-          <a href="tel:+923054455624" class="contact-link">
-            <span class="contact-icon">📱</span>
-            <div>
-              <div class="contact-link-text">+92 305 4455624</div>
-              <div class="contact-link-label">WhatsApp / Phone · Pakistan (PKT)</div>
-            </div>
-          </a>
+          <a href="mailto:ranamuqadas269@gmail.com" class="contact-link"><span class="contact-icon">✉️</span><div><div class="contact-link-text">ranamuqadas269@gmail.com</div><div class="contact-link-label">Email</div></div></a>
+          <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-icon">💼</span><div><div class="contact-link-text">LinkedIn</div><div class="contact-link-label">Professional profile</div></div></a>
+          <a href="https://github.com/Muqadas591" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-icon">💻</span><div><div class="contact-link-text">github.com/Muqadas591</div><div class="contact-link-label">Code and project repositories</div></div></a>
         </div>
       </div>
-      <div>
-        <div class="case-card" style="padding:2rem;">
-          <div class="section-eyebrow" style="margin-bottom:1rem;">What I'm Looking For</div>
-          <ul class="value-list">
-            <li>Remote AI/ML engineer roles — full-time or contract</li>
-            <li>LLM & RAG product development engagements</li>
-            <li>Fintech / banking AI consulting projects</li>
-            <li>MLOps & model deployment support</li>
-            <li>Data science and analytics freelance work</li>
-            <li>AI automation & agents projects</li>
-          </ul>
-          <div style="margin-top:2rem;">
-            <div class="section-eyebrow" style="margin-bottom:0.75rem;">Resume</div>
-            <a href="#" class="btn-primary" style="display:inline-block;font-size:0.875rem;">⬇ Download Resume (PDF)</a>
-          </div>
-        </div>
-      </div>
+      <div><div class="case-card" style="padding:2rem;">
+        <div class="section-eyebrow" style="margin-bottom:1rem;">Areas of Interest</div>
+        <ul class="value-list"><li>Remote AI/ML engineering roles</li><li>LLM and RAG application development</li><li>AI-powered business automation</li><li>Python backend and API development</li><li>Data analytics and AI-assisted reporting</li></ul>
+        <div style="margin-top:2rem;"><div class="section-eyebrow" style="margin-bottom:0.75rem;">Resume</div><a href="mailto:ranamuqadas269@gmail.com?subject=Resume%20Request" class="btn-primary" style="display:inline-block;font-size:0.875rem;">Request Resume PDF</a></div>
+      </div></div>
     </div>
   </div>
 </section>
 
-<!-- ─── FOOTER ─── -->
 <footer>
-  <div style="margin-bottom:0.75rem;">
-    <span style="font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--cyan);">Muqadas Israr</span>
-    &nbsp;·&nbsp; Senior ML Engineer &nbsp;·&nbsp; AI/LLM/RAG Specialist
-  </div>
-  <div style="margin-bottom:0.5rem;">
-    <a href="mailto:ranamuqadas269@gmail.com">ranamuqadas269@gmail.com</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/Muqadas591" target="_blank">GitHub</a>
-    &nbsp;·&nbsp;
-    <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank">LinkedIn</a>
-  </div>
-  <div>Built for remote AI roles & international freelance clients · 2025</div>
+  <div style="margin-bottom:0.75rem;"><span style="font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--cyan);">Muqadas Israr</span> &nbsp;·&nbsp; AI/ML Engineer &nbsp;·&nbsp; LLM / RAG / AI Automation</div>
+  <div style="margin-bottom:0.5rem;"><a href="mailto:ranamuqadas269@gmail.com">ranamuqadas269@gmail.com</a> &nbsp;·&nbsp; <a href="https://github.com/Muqadas591" target="_blank" rel="noopener noreferrer">GitHub</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/muqadas-israr-244697314" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+  <div>Designed and built by Muqadas Israr · 2026</div>
 </footer>
 
 <script>
